@@ -19,7 +19,7 @@ from testapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('agent/', views.agent1),
+    path('agent/', views.agent2),
     path('contacts/', views.agent2),
     path('location/', views.agent3),
     path('address/', views.agent4),
