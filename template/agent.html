@@ -1,0 +1,160 @@
+3-v<!DOCTYPE html>
+<html lang="en" dir="ltr">
+{%load staticfiles%}
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{%static 'agent.css'%}">
+  </head>
+  <body>
+    <div class="container">
+
+
+    <div class="jumbotron">
+    <h1 class="display-4">Agent Details</h1>
+    <div class="container">
+
+
+    <hr class="my-4">
+
+    <p class="lead">
+      <!--<a class="btn btn-primary btn-lg" href="agent" role="button">agent</a> -->
+      <div class="dropdown">
+<button onclick="myFunction4()" class="dropbtn">Agent</button>
+  <div id="myDropdown4" class="dropdown-content">
+    <a href="vasanth">Agent 007 info</a>
+    <a href="agent">Agent Table</a>
+    <!--<a href="#agent">address info</a>-->
+  </div>
+</div>
+      <!--<a class="btn btn-primary btn-lg" href="contacts" role="button">contacts</a>-->
+      <div class="dropdown">
+<button onclick="myFunction5()" class="dropbtn">Contacts</button>
+  <div id="myDropdown5" class="dropdown-content">
+    <a href="records2"> Agent 007 contact info</a>
+    <a href="contacts">Contacts Table</a>
+  <!--  <a href="#agent">address info</a>-->
+  </div>
+</div>
+    <!--  <a class="btn btn-primary btn-lg" href="location" role="button">location</a>-->
+    <div class="dropdown">
+<button onclick="myFunction6()" class="dropbtn">Location</button>
+<div id="myDropdown6" class="dropdown-content">
+  <a href="records3"> Agent 007 location info</a>
+  <a href="location">location Table</a>
+  <!--<a href="#agent">address info</a>-->
+</div>
+</div>
+
+<!--  <a class="btn btn-primary btn-lg" href="address" role="button">address</a>-->
+<div class="dropdown">
+<button onclick="myFunction7()" class="dropbtn">Address</button>
+<div id="myDropdown7" class="dropdown-content">
+<a href="records4"> Agent 007 address info</a>
+<a href="address">Address table</a>
+<!--<a href="#agent">address info</a>-->
+</div>
+</div>
+
+      <p></p>
+      <p> it will give you compleate information of agent details </p>
+    </p>
+
+    </div>
+      </div>
+          </div>
+
+            <div class="jumbotron">
+
+
+          <h3>Agent Registation Forms</h3>
+
+          <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Agent Form</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="form">Agent Registation Form</a>
+      <!--  <a href="#about">Drop agent details</a>
+        <a href="agent">Agent Table</a>-->
+      </div>
+    </div>
+
+    <div class="dropdown">
+    <button onclick="myFunction1()" class="dropbtn">Contacts form</button>
+      <div id="myDropdown1" class="dropdown-content">
+        <a href="form2">Contacts Registation Form</a>
+      <!--  <a href="#about">Drop contacts</a>
+        <a href="contacts">Contactc Table</a>-->
+      </div>
+    </div>
+
+    <div class="dropdown">
+    <button onclick="myFunction2()" class="dropbtn">Location Form</button>
+      <div id="myDropdown2" class="dropdown-content">
+        <a href="form4">location Registation Form</a>
+      <!--  <a href="#about">Drop location details</a>
+        <a href="location">Location Table</a>-->
+      </div>
+    </div>
+
+
+    <div class="dropdown">
+    <button onclick="myFunction3()" class="dropbtn">Address Form</button>
+      <div id="myDropdown3" class="dropdown-content">
+        <a href="form6">Address Registation Form</a>
+      <!--  <a href="#about">Drop Address details</a>
+        <a href="address">Address table</a>-->
+      </div>
+    </div>
+
+    <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+    function myFunction1() {
+        document.getElementById("myDropdown1").classList.toggle("show");
+      }
+
+    function myFunction2() {
+      document.getElementById("myDropdown2").classList.toggle("show");
+    }
+
+    function myFunction3() {
+      document.getElementById("myDropdown3").classList.toggle("show");
+    }
+    function myFunction4() {
+      document.getElementById("myDropdown4").classList.toggle("show");
+    }
+    function myFunction5() {
+      document.getElementById("myDropdown5").classList.toggle("show");
+    }
+    function myFunction6() {
+      document.getElementById("myDropdown6").classList.toggle("show");
+    }
+    function myFunction7() {
+      document.getElementById("myDropdown7").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
+  </div>
+  </body>
+</html>
