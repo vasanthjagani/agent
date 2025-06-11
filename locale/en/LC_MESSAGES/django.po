@@ -1,0 +1,1877 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-10 11:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: app/settings.py:184
+msgid "English"
+msgstr ""
+
+#: app/settings.py:185
+msgid "French"
+msgstr ""
+
+#: church/admin.py:11 giving/admin.py:13
+msgid "Church Details"
+msgstr ""
+
+#: church/admin.py:14
+msgid "Location Coordinates"
+msgstr ""
+
+#: church/admin.py:15
+msgid "Location Address"
+msgstr ""
+
+#: church/admin.py:17
+msgid "Address Details"
+msgstr ""
+
+#: church/imports.py:32
+msgid "Organization import status"
+msgstr ""
+
+#: church/imports.py:33
+msgid "Organization data imported successfully. Check it in the application."
+msgstr ""
+
+#: church/imports.py:36
+msgid ""
+"Some of the organization data imported successfully and some not imported "
+"due to incorrect data . Also, we attached the excel file with non imported "
+"rows including error. Correct the incorrect data and then import again."
+msgstr ""
+
+#: church/imports.py:96
+msgid "You are not authorized to import Organization data."
+msgstr ""
+
+#: church/imports.py:115
+msgid "File extension are required."
+msgstr ""
+
+#: church/models.py:18 church/models.py:32 church/models.py:97
+#: church/models.py:112 church/models.py:125 cristobase/models/base.py:29
+#: cristobase/models/configuration.py:11 cristobase/models/configuration.py:23
+#: cristobase/models/configuration.py:36 cristobase/models/configuration.py:53
+#: cristobase/models/configuration.py:68 cristobase/models/configuration.py:79
+#: giving/models.py:15 giving/models.py:141 group/models.py:70
+#: group/models.py:84 group/models.py:111 group/models.py:151
+#: member/models.py:31 member/models.py:146 member/models.py:176
+#: member/models.py:213 sermons/models.py:37 sermons/models.py:49
+#: subscription/models.py:13 subscription/models.py:32
+#: subscription/models.py:49 subscription/models.py:71 survey/models.py:41
+#: survey/models.py:61 survey/models.py:183 survey/models.py:198
+#: survey/models.py:213 survey/models.py:226 survey/models.py:251
+#: survey/models.py:564 survey/models.py:573 survey/models.py:618
+#: survey/models.py:714 users/models.py:36 users/models.py:48
+msgid "Name"
+msgstr ""
+
+#: church/models.py:33 users/models.py:116
+msgid "email address"
+msgstr ""
+
+#: church/models.py:34 survey/models.py:679
+msgid "Website"
+msgstr ""
+
+#: church/models.py:35 survey/models.py:114 survey/models.py:677
+#: users/models.py:125 users/models.py:196
+msgid "Phone Number"
+msgstr ""
+
+#: church/models.py:36
+msgid "Tax ID"
+msgstr ""
+
+#: church/models.py:37 member/models.py:214 users/models.py:129
+msgid "Street"
+msgstr ""
+
+#: church/models.py:38 member/models.py:215
+msgid "Apt/Unit/Box"
+msgstr ""
+
+#: church/models.py:39 events/models.py:134 events/models.py:650
+#: group/models.py:34 member/models.py:216 users/models.py:130
+msgid "City"
+msgstr ""
+
+#: church/models.py:42 events/models.py:137 events/models.py:653
+#: member/models.py:219
+msgid "Zipcode"
+msgstr ""
+
+#: church/models.py:43 users/models.py:123 users/models.py:180
+msgid "Timezone"
+msgstr ""
+
+#: church/models.py:45 survey/models.py:297
+msgid "Time Format"
+msgstr ""
+
+#: church/models.py:47 survey/models.py:293
+msgid "Date Format"
+msgstr ""
+
+#: church/models.py:51 survey/models.py:507
+msgid "File"
+msgstr ""
+
+#: church/models.py:52 cristobase/models/configuration.py:12
+#: cristobase/models/configuration.py:54 cristobase/models/configuration.py:69
+#: survey/models.py:184 survey/models.py:199 survey/models.py:578
+#: users/models.py:37
+msgid "Code"
+msgstr ""
+
+#: church/models.py:53
+msgid "Giving Onboard Status"
+msgstr ""
+
+#: church/models.py:54 giving/models.py:98
+msgid "Client App ID"
+msgstr ""
+
+#: church/models.py:55 survey/models.py:113 survey/models.py:676
+#: users/models.py:142 users/models.py:198
+msgid "Phone Code"
+msgstr ""
+
+#: church/models.py:56
+msgid "Location Street"
+msgstr ""
+
+#: church/models.py:57
+msgid "Location Apt/Unit/Box"
+msgstr ""
+
+#: church/models.py:58
+msgid "Location City"
+msgstr ""
+
+#: church/models.py:61
+msgid "Location Zipcode"
+msgstr ""
+
+#: church/models.py:62
+msgid "Same as Location Address"
+msgstr ""
+
+#: church/models.py:63 giving/models.py:56
+msgid "Contact ID"
+msgstr ""
+
+#: church/models.py:64
+msgid "Tagline"
+msgstr ""
+
+#: church/models.py:65 group/models.py:38 survey/models.py:512
+#: survey/models.py:579
+msgid "Latitude"
+msgstr ""
+
+#: church/models.py:66 group/models.py:39 survey/models.py:514
+#: survey/models.py:580
+msgid "Longitude"
+msgstr ""
+
+#: church/models.py:67
+msgid "Visible on Mobile"
+msgstr ""
+
+#: church/models.py:126 sermons/models.py:68 subscription/models.py:36
+#: subscription/models.py:51 survey/models.py:215 survey/models.py:230
+#: survey/models.py:262 survey/models.py:412 survey/models.py:590
+msgid "Sequence"
+msgstr ""
+
+#: church/models.py:139 church/models.py:154
+msgid "Display Name"
+msgstr ""
+
+#: church/models.py:170
+msgid "Invitation Code"
+msgstr ""
+
+#: church/models.py:171
+msgid "Redeemed"
+msgstr ""
+
+#: church/tasks.py:141
+msgid "Failed Contact Id column references: "
+msgstr ""
+
+#: cristobase/models/base.py:30
+msgid "Logo"
+msgstr ""
+
+#: cristobase/models/configuration.py:24
+msgid "Abbreviation"
+msgstr ""
+
+#: cristobase/models/configuration.py:37
+msgid "2-character"
+msgstr ""
+
+#: cristobase/models/configuration.py:38
+msgid "3-character"
+msgstr ""
+
+#: cristobase/models/configuration.py:80
+msgid "Is Address Label?"
+msgstr ""
+
+#: cristobase/models/configuration.py:81
+msgid "Is Email Label?"
+msgstr ""
+
+#: cristobase/models/configuration.py:82
+msgid "Is Number Label?"
+msgstr ""
+
+#: events/admin.py:10
+msgid "Event Details"
+msgstr ""
+
+#: events/admin.py:15 survey/models.py:441
+msgid "Options"
+msgstr ""
+
+#: events/admin.py:18
+msgid "Month(s)"
+msgstr ""
+
+#: events/admin.py:21
+msgid "Week(s)"
+msgstr ""
+
+#: events/admin.py:24
+msgid "Reminder"
+msgstr ""
+
+#: events/admin.py:45
+msgid "Notification Details"
+msgstr ""
+
+#: events/admin.py:52
+msgid "Deleted Event Details"
+msgstr ""
+
+#: events/admin.py:62
+msgid "Attendance Details"
+msgstr ""
+
+#: events/admin.py:70
+msgid "Reminder Details"
+msgstr ""
+
+#: events/models.py:18
+msgid "Reminder Name"
+msgstr ""
+
+#: events/models.py:24 group/models.py:152 subscription/models.py:88
+msgid "Type"
+msgstr ""
+
+#: events/models.py:25
+msgid "Value"
+msgstr ""
+
+#: events/models.py:29
+msgid "Mode"
+msgstr ""
+
+#: events/models.py:37
+msgid "Event Name"
+msgstr ""
+
+#: events/models.py:39
+msgid "Start Date"
+msgstr ""
+
+#: events/models.py:40
+msgid "Start Time"
+msgstr ""
+
+#: events/models.py:41
+msgid "End Date"
+msgstr ""
+
+#: events/models.py:42
+msgid "End TIme"
+msgstr ""
+
+#: events/models.py:50
+msgid "Repeat"
+msgstr ""
+
+#: events/models.py:52 group/models.py:85 group/models.py:156
+#: sermons/models.py:22 sermons/models.py:74 subscription/models.py:21
+#: survey/models.py:65 survey/models.py:228 survey/models.py:255
+#: survey/models.py:715 timeline/models.py:18
+msgid "Description"
+msgstr ""
+
+#: events/models.py:53
+msgid "All Day"
+msgstr ""
+
+#: events/models.py:59
+msgid "Ends"
+msgstr ""
+
+#: events/models.py:60
+msgid "Stop Date"
+msgstr ""
+
+#: events/models.py:61
+msgid "Interval"
+msgstr ""
+
+#: events/models.py:66 group/admin.py:71 group/admin.py:101 group/admin.py:119
+msgid "Location"
+msgstr ""
+
+#: events/models.py:67 events/models.py:647 group/models.py:30
+msgid "Location Name"
+msgstr ""
+
+#: events/models.py:68
+msgid "Location Url"
+msgstr ""
+
+#: events/models.py:74 group/models.py:155 users/models.py:181
+msgid "Visibility"
+msgstr ""
+
+#: events/models.py:75 giving/models.py:67 users/models.py:199
+msgid "Created Datetime"
+msgstr ""
+
+#: events/models.py:76
+msgid "Modified Datetime"
+msgstr ""
+
+#: events/models.py:88
+msgid "Weekday"
+msgstr ""
+
+#: events/models.py:89
+msgid "Mon"
+msgstr ""
+
+#: events/models.py:90
+msgid "Tue"
+msgstr ""
+
+#: events/models.py:91
+msgid "Wed"
+msgstr ""
+
+#: events/models.py:92
+msgid "Thu"
+msgstr ""
+
+#: events/models.py:93
+msgid "Fri"
+msgstr ""
+
+#: events/models.py:94
+msgid "Sat"
+msgstr ""
+
+#: events/models.py:95
+msgid "Sun"
+msgstr ""
+
+#: events/models.py:96
+msgid "Recurrent"
+msgstr ""
+
+#: events/models.py:104
+msgid "By day"
+msgstr ""
+
+#: events/models.py:109
+msgid "Day of Month"
+msgstr ""
+
+#: events/models.py:110
+msgid "Number of Repetitions"
+msgstr ""
+
+#: events/models.py:111
+msgid "Day"
+msgstr ""
+
+#: events/models.py:116
+msgid "Edit"
+msgstr ""
+
+#: events/models.py:121
+msgid "Delete"
+msgstr ""
+
+#: events/models.py:123
+msgid "Canceled"
+msgstr ""
+
+#: events/models.py:124 events/models.py:648 users/admin.py:24
+#: users/admin.py:34
+msgid "Address"
+msgstr ""
+
+#: events/models.py:125 events/models.py:649
+msgid "Apt/Suite/Unit "
+msgstr ""
+
+#: events/models.py:130
+msgid "Church Center"
+msgstr ""
+
+#: events/models.py:132
+msgid "Reminder Sent On"
+msgstr ""
+
+#: events/models.py:133
+msgid "Reminder Sent Status"
+msgstr ""
+
+#: events/models.py:140 events/models.py:646 group/models.py:90
+#: sermons/models.py:107 survey/models.py:80
+msgid "Church"
+msgstr ""
+
+#: events/models.py:621 survey/models.py:99 survey/models.py:121
+#: users/models.py:120 users/models.py:122 users/models.py:172
+msgid "Role"
+msgstr ""
+
+#: events/models.py:622 events/models.py:639 giving/models.py:54
+#: group/models.py:115 member/models.py:128 sms/models.py:38
+#: subscription/models.py:93 survey/models.py:83 survey/models.py:204
+#: survey/models.py:332 survey/models.py:424 survey/models.py:447
+#: survey/models.py:596 survey/models.py:632 survey/models.py:686
+msgid "Status"
+msgstr ""
+
+#: giving/admin.py:9
+msgid "Transaction Details"
+msgstr ""
+
+#: giving/admin.py:24
+msgid "Api Credentials"
+msgstr ""
+
+#: giving/exceptions.py:15
+msgid "User already verified."
+msgstr ""
+
+#: giving/exceptions.py:19
+msgid "Invalid credentials."
+msgstr ""
+
+#: giving/exceptions.py:23 users/exceptions.py:15
+msgid "User is not verified."
+msgstr ""
+
+#: giving/exceptions.py:27
+msgid "This email is already in use."
+msgstr ""
+
+#: giving/exceptions.py:31
+msgid "This token if for something else."
+msgstr ""
+
+#: giving/exceptions.py:35
+msgid "Password already set for account."
+msgstr ""
+
+#: giving/exceptions.py:43
+msgid "Wrong usage, check your code!."
+msgstr ""
+
+#: giving/models.py:17
+msgid "Archive"
+msgstr ""
+
+#: giving/models.py:48
+msgid "Amount"
+msgstr ""
+
+#: giving/models.py:49
+msgid "Save Account"
+msgstr ""
+
+#: giving/models.py:50
+msgid "Transaction ID"
+msgstr ""
+
+#: giving/models.py:51
+msgid "Account Holder Name"
+msgstr ""
+
+#: giving/models.py:55 giving/models.py:121
+msgid "Payment Method"
+msgstr ""
+
+#: giving/models.py:57 giving/models.py:118
+msgid "First Six"
+msgstr ""
+
+#: giving/models.py:58 giving/models.py:119
+msgid "Last Four"
+msgstr ""
+
+#: giving/models.py:59
+msgid "Is Recurring"
+msgstr ""
+
+#: giving/models.py:60
+msgid "Response Message"
+msgstr ""
+
+#: giving/models.py:62
+msgid "Action"
+msgstr ""
+
+#: giving/models.py:64
+msgid "Account Type"
+msgstr ""
+
+#: giving/models.py:65
+msgid "Tax"
+msgstr ""
+
+#: giving/models.py:68
+msgid "Reason Code"
+msgstr ""
+
+#: giving/models.py:69
+msgid "Reason Title"
+msgstr ""
+
+#: giving/models.py:70
+msgid "Gift type"
+msgstr ""
+
+#: giving/models.py:71
+msgid "Frequency"
+msgstr ""
+
+#: giving/models.py:72
+msgid "Starting"
+msgstr ""
+
+#: giving/models.py:73
+msgid "Is Settled"
+msgstr ""
+
+#: giving/models.py:75 message/models.py:25 sermons/models.py:67
+#: survey/models.py:516
+msgid "Date"
+msgstr ""
+
+#: giving/models.py:76 member/models.py:132
+msgid "Note"
+msgstr ""
+
+#: giving/models.py:77
+msgid "Manual Entry"
+msgstr ""
+
+#: giving/models.py:78
+msgid "Batch"
+msgstr ""
+
+#: giving/models.py:91
+msgid "User ID"
+msgstr ""
+
+#: giving/models.py:92
+msgid "User Api Key"
+msgstr ""
+
+#: giving/models.py:93
+msgid "Developer ID"
+msgstr ""
+
+#: giving/models.py:95
+msgid "Location ID"
+msgstr ""
+
+#: giving/models.py:96
+msgid "CC Product Transaction ID"
+msgstr ""
+
+#: giving/models.py:97
+msgid "ACH Product Transaction ID"
+msgstr ""
+
+#: giving/models.py:116
+msgid "Card Token"
+msgstr ""
+
+#: giving/models.py:117
+msgid "Is Primary"
+msgstr ""
+
+#: giving/models.py:129
+msgid "Recurring"
+msgstr ""
+
+#: giving/models.py:130 group/models.py:186
+msgid "Active"
+msgstr ""
+
+#: group/admin.py:68 group/models.py:112
+msgid "Group Type"
+msgstr ""
+
+#: group/admin.py:70
+msgid "Basic Settings"
+msgstr ""
+
+#: group/admin.py:73 group/admin.py:103
+msgid "Enrollment"
+msgstr ""
+
+#: group/admin.py:76 group/admin.py:106
+msgid "Leader Access"
+msgstr ""
+
+#: group/admin.py:77 group/admin.py:107
+msgid "Contact Person For Leader"
+msgstr ""
+
+#: group/admin.py:78
+msgid "Event defaults"
+msgstr ""
+
+#: group/admin.py:79 group/admin.py:113 group/admin.py:123
+msgid "Event Default"
+msgstr ""
+
+#: group/admin.py:99 group/admin.py:117
+msgid "Group Settings"
+msgstr ""
+
+#: group/admin.py:108 group/models.py:118 sermons/models.py:58
+msgid "Tags"
+msgstr ""
+
+#: group/admin.py:109 group/admin.py:121
+msgid "Group Page Settings"
+msgstr ""
+
+#: group/admin.py:112
+msgid "Group Messaging"
+msgstr ""
+
+#: group/models.py:25
+msgid "Meeting Schedule"
+msgstr ""
+
+#: group/models.py:26
+msgid "Group Description"
+msgstr ""
+
+#: group/models.py:27
+msgid "Contact Email"
+msgstr ""
+
+#: group/models.py:29
+msgid "Location Type"
+msgstr ""
+
+#: group/models.py:31
+msgid "Street Address"
+msgstr ""
+
+#: group/models.py:32
+msgid "Apt/Unit/Building"
+msgstr ""
+
+#: group/models.py:33
+msgid "Link URL"
+msgstr ""
+
+#: group/models.py:37 users/models.py:133
+msgid "Zip Code"
+msgstr ""
+
+#: group/models.py:41 group/models.py:42 group/models.py:43
+msgid "Auto Close"
+msgstr ""
+
+#: group/models.py:44
+msgid "Enrollment On"
+msgstr ""
+
+#: group/models.py:45
+msgid "Enrollment Reaches Number"
+msgstr ""
+
+#: group/models.py:46
+msgid "membership Exceeds Value"
+msgstr ""
+
+#: group/models.py:48
+msgid "List Leaders"
+msgstr ""
+
+#: group/models.py:49
+msgid "List Event Calendars"
+msgstr ""
+
+#: group/models.py:50
+msgid "Contact Person"
+msgstr ""
+
+#: group/models.py:52
+msgid "Leader can Add New Member By"
+msgstr ""
+
+#: group/models.py:54
+msgid "Ask Leader to take attendance"
+msgstr ""
+
+#: group/models.py:56
+msgid "Send Reminder Emails"
+msgstr ""
+
+#: group/models.py:57
+msgid "Event Reminder"
+msgstr ""
+
+#: group/models.py:59 group/models.py:121
+msgid "Group Enrolment"
+msgstr ""
+
+#: group/models.py:61 group/models.py:119
+msgid "Visibility Online"
+msgstr ""
+
+#: group/models.py:63 group/models.py:71 group/models.py:114
+msgid "Display Publicly"
+msgstr ""
+
+#: group/models.py:73
+msgid "Can one group belong to many"
+msgstr ""
+
+#: group/models.py:87
+msgid "Map Enabled"
+msgstr ""
+
+#: group/models.py:88
+msgid "Messaging Enabled"
+msgstr ""
+
+#: group/models.py:89
+msgid "Managers"
+msgstr ""
+
+#: group/models.py:116
+msgid "Group Image"
+msgstr ""
+
+#: group/models.py:117
+msgid "Image Path"
+msgstr ""
+
+#: group/models.py:123
+msgid "Enable Group Messaging"
+msgstr ""
+
+#: group/models.py:124
+msgid "Who can create new messages?"
+msgstr ""
+
+#: group/models.py:126
+msgid "Group Note"
+msgstr ""
+
+#: group/models.py:153 message/models.py:111 message/models.py:131
+#: survey/models.py:515
+msgid "File Path"
+msgstr ""
+
+#: group/models.py:154
+msgid "Link"
+msgstr ""
+
+#: group/models.py:157 group/models.py:184
+msgid "Group"
+msgstr ""
+
+#: group/models.py:158
+msgid "Filename"
+msgstr ""
+
+#: group/models.py:182
+msgid "Member Role"
+msgstr ""
+
+#: group/models.py:183 survey/models.py:116 timeline/models.py:14
+msgid "Member"
+msgstr ""
+
+#: group/models.py:185
+msgid "Member Since"
+msgstr ""
+
+#: group/models.py:213
+msgid "History Type"
+msgstr ""
+
+#: group/models.py:214
+msgid "Member ID"
+msgstr ""
+
+#: group/models.py:215
+msgid "Group ID"
+msgstr ""
+
+#: group/models.py:216
+msgid "History Date"
+msgstr ""
+
+#: member/admin.py:14
+msgid "Person Details"
+msgstr ""
+
+#: member/admin.py:15
+msgid "Basic Details"
+msgstr ""
+
+#: member/admin.py:18
+msgid "URLs"
+msgstr ""
+
+#: member/imports.py:271
+#, python-format
+msgid "%s"
+msgstr ""
+
+#: member/models.py:32
+msgid "Family Photo"
+msgstr ""
+
+#: member/models.py:65 survey/models.py:108
+msgid "First Name"
+msgstr ""
+
+#: member/models.py:66 survey/models.py:109
+msgid "Last Name"
+msgstr ""
+
+#: member/models.py:67
+msgid "Middle Name"
+msgstr ""
+
+#: member/models.py:68
+msgid "Given Name"
+msgstr ""
+
+#: member/models.py:69
+msgid "Nick Name"
+msgstr ""
+
+#: member/models.py:77
+msgid "Birthdate"
+msgstr ""
+
+#: member/models.py:79
+msgid "Anniversary"
+msgstr ""
+
+#: member/models.py:81
+msgid "Twitter profile URL"
+msgstr ""
+
+#: member/models.py:82
+msgid "Facebook profile URL"
+msgstr ""
+
+#: member/models.py:83
+msgid "LinkedIn profile URL"
+msgstr ""
+
+#: member/models.py:84
+msgid "Instagram profile URL"
+msgstr ""
+
+#: member/models.py:86
+msgid "Membership Type"
+msgstr ""
+
+#: member/models.py:88
+msgid "Profile Status"
+msgstr ""
+
+#: member/models.py:90
+msgid "Inactive Reason"
+msgstr ""
+
+#: member/models.py:95 survey/models.py:683 users/models.py:128
+msgid "Profile Photo"
+msgstr ""
+
+#: member/models.py:97
+msgid "Is Primary Member"
+msgstr ""
+
+#: member/models.py:98
+msgid "Medical Note"
+msgstr ""
+
+#: member/models.py:111
+msgid "Select the reason for member's inactive."
+msgstr ""
+
+#: member/models.py:130
+msgid "Date Completed"
+msgstr ""
+
+#: member/models.py:131
+msgid "Expires On"
+msgstr ""
+
+#: member/models.py:147 survey/models.py:115 survey/models.py:678
+#: users/models.py:197
+msgid "Email"
+msgstr ""
+
+#: member/models.py:148
+msgid "Primary Email"
+msgstr ""
+
+#: member/models.py:177 survey/admin.py:114 survey/models.py:439
+msgid "Number"
+msgstr ""
+
+#: member/models.py:178
+msgid "Primary Number"
+msgstr ""
+
+#: member/models.py:179
+msgid "Country Code"
+msgstr ""
+
+#: member/models.py:220
+msgid "Primary Address"
+msgstr ""
+
+#: member/models.py:238
+msgid "Alphanumeric and single Hyphen are allowed for Zipcode format."
+msgstr ""
+
+#: member/models.py:248
+msgid "{} field(s) is/are mandatory."
+msgstr ""
+
+#: message/admin.py:8
+msgid "Message"
+msgstr ""
+
+#: message/admin.py:24
+msgid "MemberMessageStatus"
+msgstr ""
+
+#: message/admin.py:32
+msgid "Attachments"
+msgstr ""
+
+#: message/admin.py:40
+msgid "Html Body Image Path"
+msgstr ""
+
+#: message/models.py:24
+msgid "Subject"
+msgstr ""
+
+#: message/models.py:26 sms/models.py:24
+msgid "Body"
+msgstr ""
+
+#: message/models.py:27 message/models.py:92
+msgid "Read"
+msgstr ""
+
+#: message/models.py:28 message/models.py:93
+msgid "Star"
+msgstr ""
+
+#: message/models.py:35 message/models.py:91
+msgid "Folder"
+msgstr ""
+
+#: message/models.py:37 message/models.py:94
+msgid "Reply"
+msgstr ""
+
+#: message/models.py:38 message/models.py:95
+msgid "Forward"
+msgstr ""
+
+#: message/models.py:108 sermons/models.py:91 survey/models.py:702
+msgid "Attachment"
+msgstr ""
+
+#: message/models.py:110
+msgid "File Name"
+msgstr ""
+
+#: sermons/models.py:20 sermons/models.py:40 sermons/models.py:66
+msgid "Title"
+msgstr ""
+
+#: sermons/models.py:23 sermons/models.py:39 sermons/models.py:73
+msgid "Image"
+msgstr ""
+
+#: sermons/models.py:31 sermons/models.py:93 sermons/models.py:109
+msgid "Series"
+msgstr ""
+
+#: sermons/models.py:70
+msgid "Video URL"
+msgstr ""
+
+#: sermons/models.py:71
+msgid "Audio URL"
+msgstr ""
+
+#: sermons/models.py:72
+msgid "Transcript"
+msgstr ""
+
+#: sermons/models.py:75
+msgid "Verse"
+msgstr ""
+
+#: sermons/models.py:79
+msgid "video id"
+msgstr ""
+
+#: sermons/models.py:80
+msgid "Channel id"
+msgstr ""
+
+#: sermons/models.py:81
+msgid "Playlist id"
+msgstr ""
+
+#: sermons/models.py:82
+msgid "Thumbnails"
+msgstr ""
+
+#: sermons/models.py:92
+msgid "Sermon"
+msgstr ""
+
+#: sermons/models.py:105
+msgid "Channel ID"
+msgstr ""
+
+#: sermons/models.py:106
+msgid "PlayList ID"
+msgstr ""
+
+#: sms/models.py:10 sms/models.py:22
+msgid "Account SID"
+msgstr ""
+
+#: sms/models.py:11
+msgid "Auth Token"
+msgstr ""
+
+#: sms/models.py:12 sms/models.py:31
+msgid "From"
+msgstr ""
+
+#: sms/models.py:13
+msgid "Gateway"
+msgstr ""
+
+#: sms/models.py:14
+msgid "Services"
+msgstr ""
+
+#: sms/models.py:23
+msgid "Api Version"
+msgstr ""
+
+#: sms/models.py:25
+msgid "Date Created"
+msgstr ""
+
+#: sms/models.py:26
+msgid "Date Sent"
+msgstr ""
+
+#: sms/models.py:27
+msgid "Date Updated"
+msgstr ""
+
+#: sms/models.py:28
+msgid "Direction"
+msgstr ""
+
+#: sms/models.py:29
+msgid "Error Code"
+msgstr ""
+
+#: sms/models.py:30
+msgid "Error Message"
+msgstr ""
+
+#: sms/models.py:32
+msgid "Message Service SID"
+msgstr ""
+
+#: sms/models.py:33
+msgid "Num Media"
+msgstr ""
+
+#: sms/models.py:34
+msgid "Num Segments"
+msgstr ""
+
+#: sms/models.py:35
+msgid "Price"
+msgstr ""
+
+#: sms/models.py:36
+msgid "Price Unit"
+msgstr ""
+
+#: sms/models.py:37
+msgid "SID"
+msgstr ""
+
+#: sms/models.py:39
+msgid "To"
+msgstr ""
+
+#: subscription/admin.py:41
+msgid "Plan Details"
+msgstr ""
+
+#: subscription/admin.py:53
+msgid "Subscription Details"
+msgstr ""
+
+#: subscription/models.py:14
+msgid "Group Limit"
+msgstr ""
+
+#: subscription/models.py:15
+msgid "Member Limit"
+msgstr ""
+
+#: subscription/models.py:16
+msgid "User Limit"
+msgstr ""
+
+#: subscription/models.py:17
+msgid "Transaction Charge"
+msgstr ""
+
+#: subscription/models.py:18
+msgid "Transaction Percentage"
+msgstr ""
+
+#: subscription/models.py:19
+msgid "Per Month"
+msgstr ""
+
+#: subscription/models.py:20
+msgid "Annually Discount"
+msgstr ""
+
+#: subscription/models.py:94
+msgid "Date From"
+msgstr ""
+
+#: subscription/models.py:95
+msgid "Date To"
+msgstr ""
+
+#: subscription/models.py:97
+msgid "Plan Visibility"
+msgstr ""
+
+#: survey/admin.py:111
+msgid "Text"
+msgstr ""
+
+#: survey/admin.py:112
+msgid "Single and Multiple Choice"
+msgstr ""
+
+#: survey/admin.py:117
+msgid "Location and GEO(Accuracy)"
+msgstr ""
+
+#: survey/admin.py:118
+msgid "Date and Time"
+msgstr ""
+
+#: survey/admin.py:119
+msgid "Section"
+msgstr ""
+
+#: survey/admin.py:120
+msgid "Question Set"
+msgstr ""
+
+#: survey/admin.py:121 survey/models.py:301
+msgid "Unit of Measure"
+msgstr ""
+
+#: survey/admin.py:122
+msgid "Image and GEO(Quality)"
+msgstr ""
+
+#: survey/admin.py:123
+msgid "phone"
+msgstr ""
+
+#: survey/admin.py:124
+msgid "Video"
+msgstr ""
+
+#: survey/admin.py:125 survey/models.py:315
+msgid "Likert Scale"
+msgstr ""
+
+#: survey/admin.py:126
+msgid "Scale"
+msgstr ""
+
+#: survey/models.py:47
+msgid "Form Categories"
+msgstr ""
+
+#: survey/models.py:63 survey/models.py:473
+msgid "Version"
+msgstr ""
+
+#: survey/models.py:66
+msgid "Declaration"
+msgstr ""
+
+#: survey/models.py:67
+msgid "Overview"
+msgstr ""
+
+#: survey/models.py:68
+msgid "Overview Sub Section 1"
+msgstr ""
+
+#: survey/models.py:69
+msgid "Overview Sub Section 2"
+msgstr ""
+
+#: survey/models.py:70
+msgid "Statements"
+msgstr ""
+
+#: survey/models.py:71
+msgid "Important Note"
+msgstr ""
+
+#: survey/models.py:72
+msgid "Next Step Description"
+msgstr ""
+
+#: survey/models.py:73
+msgid "Section Description"
+msgstr ""
+
+#: survey/models.py:75 survey/models.py:112 survey/models.py:659
+msgid "Publish Status"
+msgstr ""
+
+#: survey/models.py:77
+msgid "Is Template?"
+msgstr ""
+
+#: survey/models.py:78
+msgid "Form Category"
+msgstr ""
+
+#: survey/models.py:81 survey/models.py:110 survey/models.py:227
+#: survey/models.py:325 survey/models.py:410 survey/models.py:471
+#: survey/models.py:627 survey/models.py:656
+msgid "Form"
+msgstr ""
+
+#: survey/models.py:82
+msgid "Assessment"
+msgstr ""
+
+#: survey/models.py:84
+msgid "Is public template?"
+msgstr ""
+
+#: survey/models.py:86
+msgid "Need Looker?"
+msgstr ""
+
+#: survey/models.py:87
+msgid "Last Updated on Looker Studio"
+msgstr ""
+
+#: survey/models.py:94
+msgid "Forms"
+msgstr ""
+
+#: survey/models.py:119
+msgid "Has Response Access"
+msgstr ""
+
+#: survey/models.py:127
+msgid "Form Invitations"
+msgstr ""
+
+#: survey/models.py:185
+msgid "Short Name"
+msgstr ""
+
+#: survey/models.py:200
+msgid "Question Option Image"
+msgstr ""
+
+#: survey/models.py:201
+msgid "Chosen"
+msgstr ""
+
+#: survey/models.py:202 survey/models.py:214 survey/models.py:436
+#: survey/models.py:499 survey/models.py:591 survey/models.py:629
+msgid "Question"
+msgstr ""
+
+#: survey/models.py:203 survey/models.py:328 survey/models.py:422
+#: survey/models.py:445 survey/models.py:501 survey/models.py:565
+#: survey/models.py:576 survey/models.py:594
+msgid "Parent"
+msgstr ""
+
+#: survey/models.py:205
+msgid "Default Option"
+msgstr ""
+
+#: survey/models.py:229
+msgid "Section Introduction"
+msgstr ""
+
+#: survey/models.py:252 survey/models.py:458 survey/models.py:503
+msgid "Question Type"
+msgstr ""
+
+#: survey/models.py:257
+msgid "Keyword"
+msgstr ""
+
+#: survey/models.py:258
+msgid "Mandatory"
+msgstr ""
+
+#: survey/models.py:259
+msgid "Help Image"
+msgstr ""
+
+#: survey/models.py:264
+msgid "Maximum no of Character Allowed"
+msgstr ""
+
+#: survey/models.py:267
+msgid "Show Code Options"
+msgstr ""
+
+#: survey/models.py:269
+msgid "Add none of the above"
+msgstr ""
+
+#: survey/models.py:271
+msgid "Add all of the above"
+msgstr ""
+
+#: survey/models.py:272
+msgid "Min"
+msgstr ""
+
+#: survey/models.py:273
+msgid "Max"
+msgstr ""
+
+#: survey/models.py:275
+msgid "Limit Type"
+msgstr ""
+
+#: survey/models.py:278
+msgid "Lower Limit"
+msgstr ""
+
+#: survey/models.py:280
+msgid "Upper Limit"
+msgstr ""
+
+#: survey/models.py:282
+msgid "Allow Decimal Numbers"
+msgstr ""
+
+#: survey/models.py:283
+msgid "Allow Negative Numbers"
+msgstr ""
+
+#: survey/models.py:284
+msgid "Currency Field?"
+msgstr ""
+
+#: survey/models.py:285
+msgid "Total Field?"
+msgstr ""
+
+#: survey/models.py:287
+msgid "Enable Warning"
+msgstr ""
+
+#: survey/models.py:290
+msgid "Location Settings"
+msgstr ""
+
+#: survey/models.py:292
+msgid "Location Accuracy"
+msgstr ""
+
+#: survey/models.py:295
+msgid "Date Allow"
+msgstr ""
+
+#: survey/models.py:300
+msgid "Section Name"
+msgstr ""
+
+#: survey/models.py:304
+msgid "Image Quality"
+msgstr ""
+
+#: survey/models.py:306
+msgid "Allow users to select image from gallery"
+msgstr ""
+
+#: survey/models.py:309
+msgid "Country"
+msgstr ""
+
+#: survey/models.py:311
+msgid "Mute Audio"
+msgstr ""
+
+#: survey/models.py:313
+msgid "Video Quality"
+msgstr ""
+
+#: survey/models.py:317
+msgid "Scale Minimum"
+msgstr ""
+
+#: survey/models.py:319
+msgid "Scale Max"
+msgstr ""
+
+#: survey/models.py:321
+msgid "Step Size"
+msgstr ""
+
+#: survey/models.py:322
+msgid "If these numbers are low"
+msgstr ""
+
+#: survey/models.py:323
+msgid "If these numbers are high"
+msgstr ""
+
+#: survey/models.py:327
+msgid "Form Section"
+msgstr ""
+
+#: survey/models.py:330
+msgid "Parent (Question Set)"
+msgstr ""
+
+#: survey/models.py:333
+msgid "Hide Data Entry"
+msgstr ""
+
+#: survey/models.py:335
+msgid "Regex Expression"
+msgstr ""
+
+#: survey/models.py:336
+msgid "Regex Warning"
+msgstr ""
+
+#: survey/models.py:337
+msgid "Leave date blank by default"
+msgstr ""
+
+#: survey/models.py:340
+msgid "Hide at data entry web"
+msgstr ""
+
+#: survey/models.py:341
+msgid "Hide at update"
+msgstr ""
+
+#: survey/models.py:342
+msgid "Axis"
+msgstr ""
+
+#: survey/models.py:413
+msgid "Question Conditions"
+msgstr ""
+
+#: survey/models.py:416
+msgid "Filter Type"
+msgstr ""
+
+#: survey/models.py:418
+msgid "Display Questions"
+msgstr ""
+
+#: survey/models.py:434
+msgid "Question Rule"
+msgstr ""
+
+#: survey/models.py:442 survey/models.py:457
+msgid "Criteria"
+msgstr ""
+
+#: survey/models.py:474
+msgid "Submitted by"
+msgstr ""
+
+#: survey/models.py:477
+msgid "Submitted on"
+msgstr ""
+
+#: survey/models.py:481
+msgid "Submitted Through"
+msgstr ""
+
+#: survey/models.py:484 survey/models.py:510
+msgid "Device ID"
+msgstr ""
+
+#: survey/models.py:486
+msgid "Synced on"
+msgstr ""
+
+#: survey/models.py:487
+msgid "Submitted by (Invitee)"
+msgstr ""
+
+#: survey/models.py:498
+msgid "Response"
+msgstr ""
+
+#: survey/models.py:505
+msgid "Result"
+msgstr ""
+
+#: survey/models.py:508
+msgid "Script Value"
+msgstr ""
+
+#: survey/models.py:517
+msgid "Time"
+msgstr ""
+
+#: survey/models.py:519
+msgid "Numeric Value"
+msgstr ""
+
+#: survey/models.py:520
+msgid "Coordinates"
+msgstr ""
+
+#: survey/models.py:557 survey/models.py:606
+msgid "Response Line"
+msgstr ""
+
+#: survey/models.py:559
+msgid "Question Option"
+msgstr ""
+
+#: survey/models.py:574
+msgid "Lookup Reference"
+msgstr ""
+
+#: survey/models.py:592 users/models.py:49
+msgid "Category"
+msgstr ""
+
+#: survey/models.py:608
+msgid "Lookup Parent"
+msgstr ""
+
+#: survey/models.py:610
+msgid "Lookup Value"
+msgstr ""
+
+#: survey/models.py:620 survey/models.py:637
+msgid "Expression"
+msgstr ""
+
+#: survey/models.py:630
+msgid "Script"
+msgstr ""
+
+#: survey/models.py:633
+msgid "Add Manually"
+msgstr ""
+
+#: survey/models.py:634
+msgid "Lookup Question"
+msgstr ""
+
+#: survey/models.py:635
+msgid "Location Question"
+msgstr ""
+
+#: survey/models.py:657
+msgid "Invitation"
+msgstr ""
+
+#: survey/models.py:660
+msgid "Token"
+msgstr ""
+
+#: survey/models.py:673
+msgid "Full Name"
+msgstr ""
+
+#: survey/models.py:674
+msgid "Company Name"
+msgstr ""
+
+#: survey/models.py:675
+msgid "Short Bio."
+msgstr ""
+
+#: survey/models.py:680
+msgid "URL for Booking an Appointment"
+msgstr ""
+
+#: survey/models.py:684
+msgid "Assessment Types"
+msgstr ""
+
+#: survey/models.py:687
+msgid "Profile URL"
+msgstr ""
+
+#: survey/models.py:703
+msgid "Question Section"
+msgstr ""
+
+#: survey/models.py:717
+msgid "Name of X axis"
+msgstr ""
+
+#: survey/models.py:718
+msgid "Name of Y axis"
+msgstr ""
+
+#: survey/models.py:720
+msgid "Quadrant 1 description"
+msgstr ""
+
+#: survey/models.py:721
+msgid "Quadrant 2 description"
+msgstr ""
+
+#: survey/models.py:722
+msgid "Quadrant 3 description"
+msgstr ""
+
+#: survey/models.py:723
+msgid "Quadrant 4 description"
+msgstr ""
+
+#: survey/models.py:724
+msgid "Quadrant 1 Label Name"
+msgstr ""
+
+#: survey/models.py:725
+msgid "Quadrant 2 Label Name"
+msgstr ""
+
+#: survey/models.py:726
+msgid "Quadrant 3 Label Name"
+msgstr ""
+
+#: survey/models.py:727
+msgid "Quadrant 4 Label Name"
+msgstr ""
+
+#: templates/email/church_import_status_email.html:31
+msgid "Hello"
+msgstr ""
+
+#: templates/email/church_import_status_email.html:55
+msgid ""
+"If you did not request a this mail, you can safely ignore this email. Only a "
+"person with access to your email can reset your account password."
+msgstr ""
+
+#: timeline/models.py:12
+msgid "Content type"
+msgstr ""
+
+#: timeline/models.py:13
+msgid "Object ID"
+msgstr ""
+
+#: timeline/models.py:17 users/models.py:176
+msgid "User"
+msgstr ""
+
+#: timeline/models.py:19
+msgid "Date time"
+msgstr ""
+
+#: timeline/models.py:22
+msgid "Audit Activities"
+msgstr ""
+
+#: users/admin.py:21 users/admin.py:31
+msgid "Personal info"
+msgstr ""
+
+#: users/admin.py:23 users/admin.py:33
+msgid "Basic info"
+msgstr ""
+
+#: users/admin.py:25
+msgid "Permissions"
+msgstr ""
+
+#: users/admin.py:26 users/admin.py:35
+msgid "Important dates"
+msgstr ""
+
+#: users/admin.py:27 users/admin.py:36
+msgid "Access Rights"
+msgstr ""
+
+#: users/admin.py:74
+msgid "Church Role Access"
+msgstr ""
+
+#: users/admin.py:86
+msgid "User Secure Access Code"
+msgstr ""
+
+#: users/constants.py:6
+msgid "Sorry,you do not have the authority to delete user records."
+msgstr ""
+
+#: users/constants.py:9
+msgid "Invalid password."
+msgstr ""
+
+#: users/constants.py:12
+msgid "You do not have permission to perform this action"
+msgstr ""
+
+#: users/models.py:117
+msgid "Church or Organization name"
+msgstr ""
+
+#: users/models.py:118
+msgid "Organization Referral ID"
+msgstr ""
+
+#: users/models.py:124
+msgid "Date of Birth"
+msgstr ""
+
+#: users/models.py:126
+msgid "Gender"
+msgstr ""
+
+#: users/models.py:127
+msgid "About Me"
+msgstr ""
+
+#: users/models.py:134 users/models.py:173
+msgid "Church or Organization"
+msgstr ""
+
+#: users/models.py:141 users/models.py:179
+msgid "Payment Contact ID"
+msgstr ""
+
+#: users/models.py:143
+msgid "Created by Church Admin"
+msgstr ""
+
+#: users/models.py:145
+msgid "Email Verified"
+msgstr ""
+
+#: users/models.py:146
+msgid "Mobile Verified"
+msgstr ""
+
+#: users/models.py:157
+msgid "Sorry! You cannot have multiple user record for same member."
+msgstr ""
+
+#: users/models.py:183
+msgid "Registered Through"
+msgstr ""
+
+#: users/models.py:185
+msgid "User Church Status"
+msgstr ""
+
+#: users/models.py:200
+msgid "Secure Access Code"
+msgstr ""
+
+#: users/models.py:215
+msgid "Show Sidebar"
+msgstr ""
+
+#: users/models.py:216
+msgid "Display Role"
+msgstr ""
+
+#: users/schema.py:297
+#, python-brace-format
+msgid "{0} is not a valid email address"
+msgstr ""
