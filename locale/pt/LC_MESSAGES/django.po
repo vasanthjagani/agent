@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-12 16:25+0530\n"
+"POT-Creation-Date: 2025-06-12 18:11+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #: .\agent\settings.py:115
 msgid "English"
 msgstr ""
@@ -27,22 +26,42 @@ msgid "Telugu"
 msgstr ""
 
 #: .\agent\settings.py:117
-msgid "Hindi"
+msgid "German"
 msgstr ""
 
 #: .\agent\settings.py:118
-msgid "Tamil"
+msgid "Polish"
 msgstr ""
 
 #: .\agent\settings.py:119
-msgid "Spanish"
+msgid "French"
 msgstr ""
 
 #: .\agent\settings.py:120
-msgid "Dutch"
+msgid "Italian"
 msgstr ""
 
-#: .\agent\settings.py:128
+#: .\agent\settings.py:121
+msgid "Portuguese"
+msgstr ""
+
+#: .\agent\settings.py:122
+msgid "Russian"
+msgstr ""
+
+#: .\agent\settings.py:123
+msgid "Chinese (Simplified)"
+msgstr ""
+
+#: .\agent\settings.py:124
+msgid "Japanese"
+msgstr ""
+
+#: .\agent\settings.py:125
+msgid "Arabic"
+msgstr ""
+
+#: .\agent\settings.py:133
 msgid "Hello"
 msgstr ""
 
